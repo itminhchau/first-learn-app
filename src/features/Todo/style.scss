@@ -1,0 +1,18 @@
+.wrap-todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.list{
+    list-style-type: none;
+    .list__item{
+        padding: 8px 0;
+       span{
+        font-size: 16px;
+        font-style: italic;
+       }
+    }
+}
